@@ -20,7 +20,8 @@ variables:
     - template: ./configprd.yml
 
 
-pool: testagentpool
+pool:
+  vmImage: ubuntu-latest
 
 
 
